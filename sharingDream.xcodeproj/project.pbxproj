@@ -12,6 +12,15 @@
 		C935B5AF19AB28EB002E88B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C935B5AD19AB28EB002E88B4 /* Main.storyboard */; };
 		C935B5B119AB28EB002E88B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C935B5B019AB28EB002E88B4 /* Images.xcassets */; };
 		C935B5BD19AB28EB002E88B4 /* sharingDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935B5BC19AB28EB002E88B4 /* sharingDreamTests.swift */; };
+		C935B5DA19AB2BAA002E88B4 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C935B5C819AB2BAA002E88B4 /* AFHTTPRequestOperation.m */; };
+		C935B5DB19AB2BAA002E88B4 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C935B5CA19AB2BAA002E88B4 /* AFHTTPRequestOperationManager.m */; };
+		C935B5DC19AB2BAA002E88B4 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C935B5CC19AB2BAA002E88B4 /* AFHTTPSessionManager.m */; };
+		C935B5DD19AB2BAA002E88B4 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C935B5CF19AB2BAA002E88B4 /* AFNetworkReachabilityManager.m */; };
+		C935B5DE19AB2BAA002E88B4 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C935B5D119AB2BAA002E88B4 /* AFSecurityPolicy.m */; };
+		C935B5DF19AB2BAA002E88B4 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C935B5D319AB2BAA002E88B4 /* AFURLConnectionOperation.m */; };
+		C935B5E019AB2BAA002E88B4 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C935B5D519AB2BAA002E88B4 /* AFURLRequestSerialization.m */; };
+		C935B5E119AB2BAA002E88B4 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C935B5D719AB2BAA002E88B4 /* AFURLResponseSerialization.m */; };
+		C935B5E219AB2BAA002E88B4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C935B5D919AB2BAA002E88B4 /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,26 @@
 		C935B5B619AB28EB002E88B4 /* sharingDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sharingDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C935B5BB19AB28EB002E88B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C935B5BC19AB28EB002E88B4 /* sharingDreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharingDreamTests.swift; sourceTree = "<group>"; };
+		C935B5C719AB2BAA002E88B4 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		C935B5C819AB2BAA002E88B4 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		C935B5C919AB2BAA002E88B4 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		C935B5CA19AB2BAA002E88B4 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		C935B5CB19AB2BAA002E88B4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		C935B5CC19AB2BAA002E88B4 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		C935B5CD19AB2BAA002E88B4 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		C935B5CE19AB2BAA002E88B4 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C935B5CF19AB2BAA002E88B4 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		C935B5D019AB2BAA002E88B4 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		C935B5D119AB2BAA002E88B4 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		C935B5D219AB2BAA002E88B4 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		C935B5D319AB2BAA002E88B4 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		C935B5D419AB2BAA002E88B4 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		C935B5D519AB2BAA002E88B4 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		C935B5D619AB2BAA002E88B4 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		C935B5D719AB2BAA002E88B4 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		C935B5D819AB2BAA002E88B4 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		C935B5D919AB2BAA002E88B4 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		C935B5E419AB2D40002E88B4 /* bridge-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridge-header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +86,8 @@
 		C935B59B19AB28EB002E88B4 = {
 			isa = PBXGroup;
 			children = (
+				C935B5E419AB2D40002E88B4 /* bridge-header.h */,
+				C935B5C619AB2BAA002E88B4 /* AFNetworking */,
 				C935B5A619AB28EB002E88B4 /* sharingDream */,
 				C935B5B919AB28EB002E88B4 /* sharingDreamTests */,
 				C935B5A519AB28EB002E88B4 /* Products */,
@@ -107,6 +138,32 @@
 				C935B5BB19AB28EB002E88B4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C935B5C619AB2BAA002E88B4 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C935B5C719AB2BAA002E88B4 /* AFHTTPRequestOperation.h */,
+				C935B5C819AB2BAA002E88B4 /* AFHTTPRequestOperation.m */,
+				C935B5C919AB2BAA002E88B4 /* AFHTTPRequestOperationManager.h */,
+				C935B5CA19AB2BAA002E88B4 /* AFHTTPRequestOperationManager.m */,
+				C935B5CB19AB2BAA002E88B4 /* AFHTTPSessionManager.h */,
+				C935B5CC19AB2BAA002E88B4 /* AFHTTPSessionManager.m */,
+				C935B5CD19AB2BAA002E88B4 /* AFNetworking.h */,
+				C935B5CE19AB2BAA002E88B4 /* AFNetworkReachabilityManager.h */,
+				C935B5CF19AB2BAA002E88B4 /* AFNetworkReachabilityManager.m */,
+				C935B5D019AB2BAA002E88B4 /* AFSecurityPolicy.h */,
+				C935B5D119AB2BAA002E88B4 /* AFSecurityPolicy.m */,
+				C935B5D219AB2BAA002E88B4 /* AFURLConnectionOperation.h */,
+				C935B5D319AB2BAA002E88B4 /* AFURLConnectionOperation.m */,
+				C935B5D419AB2BAA002E88B4 /* AFURLRequestSerialization.h */,
+				C935B5D519AB2BAA002E88B4 /* AFURLRequestSerialization.m */,
+				C935B5D619AB2BAA002E88B4 /* AFURLResponseSerialization.h */,
+				C935B5D719AB2BAA002E88B4 /* AFURLResponseSerialization.m */,
+				C935B5D819AB2BAA002E88B4 /* AFURLSessionManager.h */,
+				C935B5D919AB2BAA002E88B4 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +265,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C935B5E019AB2BAA002E88B4 /* AFURLRequestSerialization.m in Sources */,
+				C935B5DF19AB2BAA002E88B4 /* AFURLConnectionOperation.m in Sources */,
+				C935B5DE19AB2BAA002E88B4 /* AFSecurityPolicy.m in Sources */,
+				C935B5DA19AB2BAA002E88B4 /* AFHTTPRequestOperation.m in Sources */,
+				C935B5E219AB2BAA002E88B4 /* AFURLSessionManager.m in Sources */,
+				C935B5E119AB2BAA002E88B4 /* AFURLResponseSerialization.m in Sources */,
 				C935B5AC19AB28EB002E88B4 /* ViewController.swift in Sources */,
+				C935B5DC19AB2BAA002E88B4 /* AFHTTPSessionManager.m in Sources */,
+				C935B5DB19AB2BAA002E88B4 /* AFHTTPRequestOperationManager.m in Sources */,
+				C935B5DD19AB2BAA002E88B4 /* AFNetworkReachabilityManager.m in Sources */,
 				C935B5AA19AB28EB002E88B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,9 +391,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: mingjian song (QLWT78U28H)";
 				INFOPLIST_FILE = sharingDream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "379362DF-E85C-461A-9A0B-8761A89789FE";
+				SWIFT_OBJC_BRIDGING_HEADER = "bridge-header.h";
 			};
 			name = Debug;
 		};
@@ -336,9 +406,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: mingjian song (QLWT78U28H)";
 				INFOPLIST_FILE = sharingDream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "379362DF-E85C-461A-9A0B-8761A89789FE";
+				SWIFT_OBJC_BRIDGING_HEADER = "bridge-header.h";
 			};
 			name = Release;
 		};
