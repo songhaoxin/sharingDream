@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVOSCloud
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,46 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+        var storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        var rootVC  = storyBoard.instantiateViewControllerWithIdentifier("dreamsID") as wishsViewController
+
+
+        
+        
+        var navController = UINavigationController(rootViewController: rootVC)
+        
+        
+        //navController.navigationBar.barStyle = UIBarStyle.BlackTranslucent
+        //navController.navigationBar.backgroundColor = UIColor.redColor()
+        /*
+        navController.title = "主页"
+        var vc1  = UIViewController()
+        vc1.title = "收藏"
+        var vc2  = UIViewController()
+        vc2.title = "历史"
+        var vc3  = UIViewController()
+        vc3.title = "设置"
+        
+        var controllers = [navController,vc1,vc2,vc3]
+        var tabController =
+            UITabBarController()
+        tabController.viewControllers = controllers
+        */
+
+        self.window?.rootViewController = navController
+        
+        
+      /*
+    AVOSCloud.setApplicationId("wr3mzqenp3hugrgaza8q8u3tkwi8zd9zpymg0pd68lbjxlo5", clientKey: "cfp6alglc69u5n06ki9eg9y7caihayhqvof2pgjlnqzvt6c0")
+        
+        //var testObject = AVOSCloud::objectWithClassName("clouds_name")
+        var testObject = AVObject(className: "studentClass")
+        testObject.setObject("宋明建", forKey: "name22")
+        testObject.save()
+        */
+
         return true
     }
 

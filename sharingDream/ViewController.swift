@@ -12,7 +12,7 @@ class ViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
-        var httpManger = AFHTTPRequestOperationManager()
+        //var httpManger = AFHTTPRequestOperationManager()
     }
 
     override func didReceiveMemoryWarning() {
